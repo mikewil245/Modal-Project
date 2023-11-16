@@ -67,6 +67,7 @@ p {
   gap: 2em;
 }
 
+
 .all-buttons {
   font-family: Josefin Sans;
   font-weight: 400;
@@ -88,20 +89,22 @@ p {
   background-color: rgb(115, 63, 0);
 }
 
+
 .modal {
   border-radius: 0.3em;
   position: absolute;
   left: 5em;
   top: 100%;
   padding: 1.4em;
-  width: 70%;
+  width: 75%;
   background-color: rgb(115, 63, 0);
   z-index: 10;
 }
-
 .all-buttons:hover {
-  background-color: rgb(227, 227, 238);
+  background-color: chocolate;
 }
+
+
 
 .overlay {
   position: fixed; /* Sit on top of the page content */
